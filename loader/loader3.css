@@ -1,0 +1,62 @@
+body{
+	background:black;
+}
+.loader{
+	width:103px;
+	height: auto;
+	overflow: hidden;
+	margin: auto;
+	margin-top: 250px;
+}
+.ball{
+	width: 30px;
+	height:30px;
+	background:rgb(128, 128, 128);
+	border-radius:10px;
+	float: left;
+	animation:anime 1s infinite ease-out;
+}
+.ball1{
+	animation-delay: 0.2s;
+	background: indianred;
+}
+.ball2{
+	animation-delay: 0.3s;
+	background:royalblue;
+}
+.ball3{
+	animation-delay: 0.4s;
+	background:rgb(248, 81, 3);
+}
+.ball4{
+	animation-delay: 0.1s;
+	background:rgb(250, 2, 147);
+}
+.ball5{
+	animation-delay: 0.2s;
+	background:rgb(205, 240, 7);
+}
+.ball6{
+	animation-delay: 0.3s;
+	background:rgb(2, 195, 253);
+}
+.ball7{
+	animation-delay: 0.0s;
+	background:rgb(77, 95, 148);
+}
+.ball8{
+	animation-delay: 0.1s;
+	background:rgba(4, 247, 226, 0.479);
+}
+.ball9{
+	animation-delay: 0.2s;
+	background:rgb(236, 117, 5);
+}
+@keyframes anime{
+	0%,20%,40%{
+		transform: scale(0);
+	}
+	60%,80%,100%{
+		transform: scale(1);
+	}
+}
